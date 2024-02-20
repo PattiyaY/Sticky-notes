@@ -1,0 +1,72 @@
+body {
+  margin: 40px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container-input {
+  margin-right: 50px;
+}
+
+.input-notes {
+  height: 300px;
+  width: 400px;
+  background-color: steelblue;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px grey;
+}
+
+.text {
+  padding: 20px;
+  height: 250px;
+  width: 350px;
+}
+
+input {
+  height: 20px;
+  width: 300px;
+  margin-top: 10px;
+  border: solid 1px gray;
+  border-color: cadetblue;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+input:focus {
+  border: solid 2px gray;
+  border-color: teal;
+}
+
+.gg-add {
+  margin-top: 10px;
+  float: right;
+}
+
+.notes-left {
+  padding: 20px;
+  height: 250px;
+  width: 350px;
+  margin-top: 40px;
+  padding: 10px 10px 20px 10px;
+  transform: rotate(15deg);
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px yellow;
+  background-color: yellowgreen;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+.notes-right {
+  padding: 20px;
+  height: 250px;
+  width: 350px;
+  margin-top: 40px;
+  padding: 10px 10px 20px 10px;
+  transform: rotate(-15deg);
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px yellowgreen;
+  background-color: yellow;
+}
